@@ -1,6 +1,6 @@
 # npmdoc-webpack-strip
 
-#### api documentation for  [webpack-strip (v0.1.0)](https://github.com/yahoo/webpack-strip)  [![npm package](https://img.shields.io/npm/v/npmdoc-webpack-strip.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webpack-strip) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webpack-strip.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webpack-strip)
+#### basic api documentation for  [webpack-strip (v0.1.0)](https://github.com/yahoo/webpack-strip)  [![npm package](https://img.shields.io/npm/v/npmdoc-webpack-strip.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-webpack-strip) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-webpack-strip.svg)](https://travis-ci.org/npmdoc/node-npmdoc-webpack-strip)
 
 #### Webpack loader to strip arbitrary functions out of your production code.
 
@@ -75,7 +75,8 @@
         "lint": "jshint lib tests",
         "test": "mocha tests/unit --recursive --reporter spec"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
